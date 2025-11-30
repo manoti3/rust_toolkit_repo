@@ -1,3 +1,5 @@
+mod cli;
+
 fn main() {
-    println!("Hello, Rust!");
+    cli::run_cli();
 }
